@@ -1,0 +1,3 @@
+Sample product description for SKU002
+This is a placeholder description file.
+Replace with actual product descriptions.

@@ -1,0 +1,17 @@
+
+📋 EXCEL FILE FORMAT EXPECTED:
+
+Your Excel file should have these columns (Hungarian names):
+- Kategória: Main category
+- Kategória 2: Subcategory  
+- Kategória 3: Sub-subcategory
+- Termék kód: Product SKU/Code
+- Terméknév: Product name
+- Méret (cm): Size in cm
+- Részek száma: Number of parts
+- Szín: Color
+- Anyag: Material
+- Vastagság: Thickness
+- Ár: Price (format: "13.990 ; 8990")
+
+Place your Excel file at: data/products.xlsx

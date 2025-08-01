@@ -1,0 +1,36 @@
+{
+  "database": {
+    "path": "products.db",
+    "backup_enabled": true,
+    "backup_interval_hours": 24
+  },
+  "files": {
+    "product_data_xlsx": "data/products.xlsx",
+    "product_data_csv": "data/products_sanitized.csv",
+    "products_root_folder": "data/products",
+    "images_folder": "data/products/images",
+    "descriptions_folder": "data/products/descriptions"
+  },
+  "browser": {
+    "profile_path": "chrome_profile",
+    "headless": false,
+    "timeout_seconds": 30,
+    "retry_attempts": 3
+  },
+  "ecommerce": {
+    "site_url": "https://example-shop.com",
+    "login_url": "https://example-shop.com/admin/login",
+    "upload_url": "https://example-shop.com/admin/products/upload"
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "shopbot.log",
+    "max_size_mb": 10,
+    "backup_count": 5
+  },
+  "sync": {
+    "check_interval_minutes": 60,
+    "batch_size": 10,
+    "concurrent_uploads": 2
+  }
+}
