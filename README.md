@@ -7,6 +7,7 @@ Python app for managing e-commerce products with web automation.
 **Install dependencies:**
 ```bash
 pip install pandas openpyxl playwright
+pip install requirements.txt
 playwright install chromium
 ```
 
@@ -37,6 +38,8 @@ Or use the data manager:
 ```bash
 python -c "from data_manager import DataManager; dm = DataManager(); dm.convert_xlsx_to_csv('data/products.xlsx', 'data/products.csv'); dm.sync_csv_to_db('data/products.csv'); dm.close()"
 ```
+
+^ Run this in the terminal if you need to use it..
 
 ## File Structure
 
